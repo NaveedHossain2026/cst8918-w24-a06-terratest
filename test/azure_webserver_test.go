@@ -17,8 +17,8 @@ func TestAzureLinuxVMCreation(t *testing.T) {
         TerraformDir: "../",
         // Override the default terraform variables
         Vars: map[string]interface{}{
-            "labelPrefix": "hoss0113",       // Your college ID
-            "region":      "eastus",         // Forces East US to bypass the WestUS3 capacity issue!
+            "labelPrefix": "hoss0113",       
+            "region":      "eastus",         
         },
     }
 
