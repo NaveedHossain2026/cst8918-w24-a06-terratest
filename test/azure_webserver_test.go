@@ -8,7 +8,7 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
-// Updated with your actual Azure subscription ID
+
 var subscriptionID string = "e415d340-1457-4f20-9088-b1fca5e591f1"
 
 func TestAzureLinuxVMCreation(t *testing.T) {
